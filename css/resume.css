@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Resume v5.0.8 (https://startbootstrap.com/template-overviews/resume)
- * Copyright 2013-2019 Start Bootstrap
+ * Copyright 2013-2019 [object Object]
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
  */
 
@@ -72,7 +72,7 @@ p.lead {
 }
 
 .social-icons a:hover {
-  background-color: #BD5D38;
+  background-color: #FFC857;
 }
 
 .dev-icons {
@@ -80,7 +80,8 @@ p.lead {
 }
 
 .dev-icons .list-inline-item i:hover {
-  color: #BD5D38;
+  color:#FFC857;
+  /* #BD5D38; */
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -90,7 +91,8 @@ p.lead {
 }
 
 #sideNav .navbar-toggler:focus {
-  outline-color: #d48a6e;
+  outline-color: #177E89;
+  /* #d48a6e; */
 }
 
 @media (min-width: 992px) {
@@ -99,12 +101,16 @@ p.lead {
     position: fixed;
     top: 0;
     left: 0;
+    display: -webkit-box;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
     flex-direction: column;
     width: 17rem;
     height: 100vh;
   }
   #sideNav .navbar-brand {
+    display: -webkit-box;
     display: flex;
     margin: auto auto 0;
     padding: 0.5rem;
@@ -115,13 +121,18 @@ p.lead {
     border: 0.5rem solid rgba(255, 255, 255, 0.2);
   }
   #sideNav .navbar-collapse {
+    display: -webkit-box;
     display: flex;
+    -webkit-box-align: start;
     align-items: flex-start;
+    -webkit-box-flex: 0;
     flex-grow: 0;
     width: 100%;
     margin-bottom: auto;
   }
   #sideNav .navbar-collapse .navbar-nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
     flex-direction: column;
     width: 100%;
   }
@@ -160,17 +171,17 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #BD5D38 !important;
+  background-color: #177E89 !important;
 }
 
 .text-primary {
-  color: #BD5D38 !important;
+  color: #177E89 !important;
 }
 
 a {
-  color: #BD5D38;
+  color: #177E89
 }
 
 a:hover, a:focus, a:active {
-  color: #824027;
+  color:  #084C61;
 }
